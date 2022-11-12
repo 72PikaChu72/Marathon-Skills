@@ -1,0 +1,45 @@
+﻿<Page x:Class="Marathon_Skills.MarathonRegistration"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Marathon_Skills"
+      mc:Ignorable="d" 
+      d:DesignHeight="1000" d:DesignWidth="1900"
+      Title="MarathonRegistration">
+
+    <Grid Background="White" Name="Grider">
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="115,820,0,0" VerticalAlignment="Top" Height="72" Width="374" FontFamily="Bahnschrift SemiBold" FontSize="36" Click="Button_Click_1"/>
+
+        <TextBlock x:Name="MarathonStartTimer" Background="#FF525252" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" TextAlignment="Center" Foreground="#FFCCCCCC" FontFamily="Candara" FontSize="48" FontStyle="Italic" Width="1920" Height="103" VerticalAlignment="Top" Loaded="MarathonStartTimer_Loaded" Margin="0,897,0,0"/>
+        <Label Content="MARATHON SKILLS 2016" Background="#FF525252" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontFamily="Arial Black" FontSize="80" HorizontalAlignment="Left" Width="1920" Height="145" VerticalAlignment="Top"/>
+        <Label Content="Регистрация на марафон" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="368,150,368,781" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <TextBlock TextWrapping="Wrap" Text="Уточните информацию о регистрации на марафон, с вами свяжутся координаторы для дальнейших действий" TextAlignment="Center" Margin="263,219,263,650" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Content="Вид марафона" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="80,341,1376,591" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Content="Комплект" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1220,395,236,537" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Content="Спонсорство" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="178,544,1278,388" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Content="Итоговый взнос" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1193,617,263,315" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <ComboBox Name="SponsorCombo" HorizontalAlignment="Left" Margin="454,616,0,0" VerticalAlignment="Top" Width="424" Height="69" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Content="Спонсировать:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="78,617,1452,315" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Button Content="i" HorizontalAlignment="Left" Margin="890,616,0,0" VerticalAlignment="Top" Height="69" Width="70" FontFamily="Bahnschrift SemiBold" FontSize="50" Background="{x:Null}" BorderBrush="#FFFFAF00" Foreground="#FFFFAF00" Click="Button_Click_2"/>
+        <Label Content="Взнос:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="262,691,1446,241" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <TextBox Name="MoneySpent" TextAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="454,690,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="424" Height="69" FontFamily="Bahnschrift SemiBold" FontSize="36" TextChanged="MoneySpent_TextChanged"/>
+        <Label Content="$" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="878,691,976,241" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Name="Counter" Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1319,750,389,182" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <CheckBox Name="Check1" Content="" HorizontalAlignment="Left" Margin="208,419,0,0" VerticalAlignment="Top" Height="16" Width="18" FontFamily="Bahnschrift SemiBold" FontSize="18" ClickMode="Release" Checked="CheckBox_Checked"/>
+        <Label Content="Марафон 1 10$" HorizontalContentAlignment="left" VerticalContentAlignment="Center" Margin="232,406,1458,552" FontFamily="Bahnschrift SemiBold" FontSize="30"/>
+        <CheckBox Name="Check2" Content="" HorizontalAlignment="Left" Margin="208,461,0,0" VerticalAlignment="Top" Height="16" Width="18" FontFamily="Bahnschrift SemiBold" FontSize="18" ClickMode="Release" Checked="CheckBox_Checked"/>
+        <Label Content="Марафон 2 20$" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Margin="232,448,1452,510" FontFamily="Bahnschrift SemiBold" FontSize="30"/>
+        <CheckBox Name="Check3" Content="" HorizontalAlignment="Left" Margin="208,503,0,0" VerticalAlignment="Top" Height="16" Width="18" FontFamily="Bahnschrift SemiBold" FontSize="18" ClickMode="Release" Checked="CheckBox_Checked"/>
+        <Label Content="Марафон 3 22$" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Margin="232,490,1446,468" FontFamily="Bahnschrift SemiBold" FontSize="30"/>
+        <RadioButton Name="RadioA" Content="" HorizontalAlignment="Left" Margin="1272,478,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Name="RadioB" Content="" HorizontalAlignment="Left" Margin="1272,516,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Name="RadioC" Content="" HorizontalAlignment="Left" Margin="1272,550,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <Label Content="Футболка 0$" HorizontalContentAlignment="left" VerticalContentAlignment="Center" Margin="1310,463,380,495" FontFamily="Bahnschrift SemiBold" FontSize="30"/>
+        <Label Content="Футболка+Вода 5$" HorizontalContentAlignment="left" VerticalContentAlignment="Center" Margin="1310,499,312,459" FontFamily="Bahnschrift SemiBold" FontSize="30"/>
+        <Label Content="Футболка+Вода+Еда 10$" HorizontalContentAlignment="left" VerticalContentAlignment="Center" Margin="1310,538,236,420" FontFamily="Bahnschrift SemiBold" FontSize="30"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="494,820,0,0" VerticalAlignment="Top" Height="72" Width="374" FontFamily="Bahnschrift SemiBold" FontSize="36" Click="Button_Click"/>
+
+
+    </Grid>
+</Page>

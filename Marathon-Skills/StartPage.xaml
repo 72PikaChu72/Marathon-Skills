@@ -1,0 +1,22 @@
+﻿<Page x:Class="Marathon_Skills.StartPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Marathon_Skills"
+      mc:Ignorable="d" 
+      d:DesignHeight="1000" d:DesignWidth="1700"
+      Title="StartPage">
+
+    <Grid Background="White" Height="1000" Width="1700">
+        <Button Content="Я хочу стать бегуном" HorizontalAlignment="Center" Margin="0,337,0,0" Width="798" FontFamily="Bahnschrift SemiBold" FontSize="50" RenderTransformOrigin="0.5,0.5" Height="163" VerticalAlignment="Top" Click="Button_Click"/>
+        <Rectangle  Stroke="#FF525252" Fill="#FF525252" Height="293" VerticalAlignment="Top"/>
+        <Label Content="MARATHON SKILLS 2016" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,40,0,0" Foreground="White" FontFamily="Arial Black" FontSize="80" HorizontalAlignment="Center" Width="1152" Height="118" VerticalAlignment="Top"/>
+        <Button Content="Я хочу стать спонсором бегуна" HorizontalAlignment="Center" Margin="0,523,0,0" Width="798" FontFamily="Bahnschrift SemiBold" FontSize="50" RenderTransformOrigin="0.5,0.5" Height="163" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <Button Content="Я хочу узнать о событии" HorizontalAlignment="Center" Margin="0,709,0,0" Width="798" FontFamily="Bahnschrift SemiBold" FontSize="50" RenderTransformOrigin="0.5,0.5" Height="163" VerticalAlignment="Top" Click="Button_Click_3"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,158,0,0" TextWrapping="Wrap" Text="Москва, Россия" VerticalAlignment="Top" TextAlignment="Center" Foreground="#FFCCCCCC" FontFamily="Candara" FontSize="48" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,214,0,0" TextWrapping="Wrap" Text="среда, 21 октября 2016" VerticalAlignment="Top" TextAlignment="Center" Foreground="#FFCCCCCC" FontFamily="Candara" FontSize="48" FontStyle="Italic"/>
+        <Button Content="Login" Margin="1372,823,44,108" FontFamily="Bahnschrift SemiBold" FontSize="50" RenderTransformOrigin="0.5,0.5" Click="Button_Click_1"/>
+        <TextBlock Name="MarathonStartTimer" Background="#FF525252" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" TextAlignment="Center" Foreground="#FFCCCCCC" FontFamily="Candara" FontSize="48" FontStyle="Italic" Width="1700" Height="103" VerticalAlignment="Top" Loaded="MarathonStartTimer_Loaded" Margin="0,897,0,0"/>
+    </Grid>
+</Page>

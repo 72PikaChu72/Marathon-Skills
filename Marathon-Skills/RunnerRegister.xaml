@@ -1,0 +1,46 @@
+﻿<Page x:Class="Marathon_Skills.RunnerRegister"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Marathon_Skills"
+      mc:Ignorable="d" 
+      d:DesignHeight="1000" d:DesignWidth="1900"
+      Title="RunnerRegister">
+
+    <Grid Background="White">
+
+
+        <TextBlock x:Name="MarathonStartTimer" Background="#FF525252" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" TextAlignment="Center" Foreground="#FFCCCCCC" FontFamily="Candara" FontSize="48" FontStyle="Italic" Width="1920" Height="103" VerticalAlignment="Top" Loaded="MarathonStartTimer_Loaded" Margin="0,897,0,0"/>
+        <Label Content="MARATHON SKILLS 2016" Background="#FF525252" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontFamily="Arial Black" FontSize="80" HorizontalAlignment="Left" Width="1920" Height="145" VerticalAlignment="Top"/>
+        <Grid>
+            <Button Content="Обзор..." HorizontalAlignment="Left" Margin="1500,547,0,0" VerticalAlignment="Top" Height="68" Width="284" FontFamily="Bahnschrift SemiBold" FontSize="36" Click="Button_Click_1"/>
+            <Label Content="Регистрация" HorizontalAlignment="Center" Margin="0,183,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift SemiBold" FontSize="48" Foreground="Gray"/>
+            <TextBox Name="Email" TextAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="309,294,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="512" Height="69" FontFamily="Bahnschrift SemiBold" FontSize="36"/>
+            <PasswordBox Name="Password" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="309,394,0,0" VerticalAlignment="Top" Width="512" Height="69" FontFamily="Bahnschrift SemiBold" FontSize="36"/>
+            <PasswordBox Name="RepeatPassword" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="309,498,0,0" VerticalAlignment="Top" Width="512" Height="69" FontFamily="Bahnschrift SemiBold" FontSize="36"/>
+            <TextBox Name="Name" TextAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="309,592,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="512" Height="69" FontFamily="Bahnschrift SemiBold" FontSize="36"/>
+            <TextBox Name="Surname" TextAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="309,688,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="512" Height="69" FontFamily="Bahnschrift SemiBold" FontSize="36"/>
+            <Label Content="Email:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="160,294,1596,637" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+            <Label Content="Password:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="72,394,1596,537" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+            <Label Content="Repeat:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="134,498,1596,433" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+            <Label Content="Имя:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="194,592,1596,339" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+            <Label Content="Фамилия:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="84,688,1596,243" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+            <ComboBox Name="Gender" HorizontalAlignment="Left" Margin="309,793,0,0" VerticalAlignment="Top" Width="512" Height="69" FontFamily="Bahnschrift SemiBold" FontSize="48">
+                <ComboBoxItem Content="Мужской"/>
+                <ComboBoxItem Content="Женский"/>
+            </ComboBox>
+            <Label Content="Пол:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="202,793,1596,138" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+            <Image Name="PhotoImage" HorizontalAlignment="Left" Height="272" Margin="1577,251,0,0" VerticalAlignment="Top" Width="203"/>
+            <TextBox Name="PhotoSource" TextAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="1212,547,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283" Height="68" FontFamily="Bahnschrift SemiBold" FontSize="36" IsEnabled="False"/>
+            <Calendar Name="Birthday" HorizontalAlignment="Left" Margin="1537,651,0,0" VerticalAlignment="Top" Height="211" Width="219"/>
+            <Label Content="Дата рождения:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1171,666,363,265" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+            <Button Content="Регистрация" HorizontalAlignment="Left" Margin="876,793,0,0" VerticalAlignment="Top" Height="69" Width="284" FontFamily="Bahnschrift SemiBold" FontSize="36" Click="Button_Click"/>
+            <Button Content="Отмена" HorizontalAlignment="Left" Margin="1166,793,0,0" VerticalAlignment="Top" Height="69" Width="284" FontFamily="Bahnschrift SemiBold" FontSize="36" Click="Button_Click_2"/>
+            <ComboBox Name="Countries" HorizontalAlignment="Left" Margin="1144,283,0,0" VerticalAlignment="Top" Width="370" Height="69" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+            <Label Content="Страна:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="962,283,761,648" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+            <Label Content="Фото:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1075,547,693,385" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        </Grid>
+
+    </Grid>
+</Page>

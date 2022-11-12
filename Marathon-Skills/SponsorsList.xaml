@@ -1,0 +1,46 @@
+﻿<Page x:Class="Marathon_Skills.SponsorsList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Marathon_Skills"
+      mc:Ignorable="d" 
+      d:DesignHeight="1000" d:DesignWidth="1900"
+      Title="SponsorsList">
+
+    <Grid Background="White">
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="1437,773,0,0" VerticalAlignment="Top" Height="72" Width="374" FontFamily="Bahnschrift SemiBold" FontSize="36" Click="Button_Click"/>
+
+        <TextBlock x:Name="MarathonStartTimer" Background="#FF525252" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" TextAlignment="Center" Foreground="#FFCCCCCC" FontFamily="Candara" FontSize="48" FontStyle="Italic" Width="1920" Height="103" VerticalAlignment="Top" Loaded="MarathonStartTimer_Loaded" Margin="0,897,0,0"/>
+        <Label Content="MARATHON SKILLS 2016" Background="#FF525252" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontFamily="Arial Black" FontSize="80" HorizontalAlignment="Left" Width="1920" Height="145" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Margin="56,176,0,0" VerticalAlignment="Top" Width="250" Height="174" Source="/arise-logo.png"/>
+        <Label Content="Arise" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="306,225,1414,706" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="478,203,0,0" VerticalAlignment="Top" Width="250" Height="118" Source="/aves-do-brazil-logo.png"/>
+        <Label Content="ADB" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="728,225,992,706" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="898,198,0,0" VerticalAlignment="Top" Width="250" Height="134" Source="/clara-santos-oliveira-institute-logo.png"/>
+        <Label Content="CSOI" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1148,225,572,706" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="1312,208,0,0" VerticalAlignment="Top" Width="250" Height="116" Source="/conquer-cancer-brazil.png"/>
+        <Label Content="CCB" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1562,225,158,706" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="56,358,0,0" VerticalAlignment="Top" Width="250" Height="174" Source="/diabetes-brazil-logo.png"/>
+        <Label Content="DB" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="306,407,1414,524" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="478,358,0,0" VerticalAlignment="Top" Width="250" Height="174" Source="/heart-health-sao-paulo-logo.png"/>
+        <Label Content="H+H" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="728,407,992,524" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="898,396,0,0" VerticalAlignment="Top" Width="250" Height="94" Source="/human-rights-centre-logo.png"/>
+        <Label Content="HRC" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1148,407,572,524" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="1312,393,0,0" VerticalAlignment="Top" Width="250" Height="94" Source="/oxfam-international-logo.png"/>
+        <Label Content="Oxfam" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1562,404,158,527" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="56,544,0,0" VerticalAlignment="Top" Width="250" Height="94" Source="/querstadtein-logo.png"/>
+        <Label Content="QSD" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="306,555,1414,376" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="478,561,0,0" VerticalAlignment="Top" Width="250" Height="60" Source="/save-the-children-fund-logo.png"/>
+        <Label Content="STC" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="728,555,992,376" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="898,558,0,0" VerticalAlignment="Top" Width="250" Height="60" Source="/stay-pumped-logo.png"/>
+        <Label Content="SP" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1148,552,572,379" FontFamily="Bahnschrift SemiBold" FontSize="48" RenderTransformOrigin="1.6,0.449"/>
+        <Image HorizontalAlignment="Left" Margin="1328,500,0,0" VerticalAlignment="Top" Width="250" Height="164" Source="/the-red-cross-logo.png" RenderTransformOrigin="0.544,0.115"/>
+        <Label Content="Red Cross" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1562,549,96,382" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="56,660,0,0" VerticalAlignment="Top" Width="250" Height="134" Source="/upbeat-logo.png"/>
+        <Label Content="Upbeat" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="306,692,1414,238" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Margin="478,660,0,0" VerticalAlignment="Top" Width="250" Height="134" Source="/wwsm-rescue-logo.png"/>
+        <Label Content="Wwsm" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="728,692,992,238" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+
+    </Grid>
+</Page>

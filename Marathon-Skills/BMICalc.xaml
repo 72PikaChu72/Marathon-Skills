@@ -1,0 +1,31 @@
+﻿<Page x:Class="Marathon_Skills.BMICalc"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Marathon_Skills"
+      mc:Ignorable="d" 
+      d:DesignHeight="1000" d:DesignWidth="1900"
+      Title="BMICalc">
+
+    <Grid Background="White">
+        <TextBox Name="Age" TextAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="77,254,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212" Height="69" FontFamily="Bahnschrift SemiBold" FontSize="36" TextChanged="Age_TextChanged"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="1437,177,0,0" VerticalAlignment="Top" Height="72" Width="374" FontFamily="Bahnschrift SemiBold" FontSize="36" Click="Button_Click"/>
+
+        <TextBlock x:Name="MarathonStartTimer" Background="#FF525252" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" TextAlignment="Center" Foreground="#FFCCCCCC" FontFamily="Candara" FontSize="48" FontStyle="Italic" Width="1920" Height="103" VerticalAlignment="Top" Loaded="MarathonStartTimer_Loaded" Margin="0,897,0,0"/>
+        <Label Content="MARATHON SKILLS 2016" Background="#FF525252" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontFamily="Arial Black" FontSize="80" HorizontalAlignment="Left" Width="1920" Height="145" VerticalAlignment="Top"/>
+        <ProgressBar Name="StatusBar" HorizontalAlignment="Left" Height="61" Margin="906,770,0,0" VerticalAlignment="Top" Width="712" Maximum="50"/>
+        <Label Content="Недовес" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="686,770,994,169" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Content="Перевес" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1623,770,57,169" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Name="StatusText" Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="874,660,254,279" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Content="Ваш индекс BMI означает что у вас" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="796,594,188,345" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <TextBox TextChanged="Age_TextChanged" Name="Rost" TextAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="77,360,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212" Height="69" FontFamily="Bahnschrift SemiBold" FontSize="36"/>
+        <TextBox TextChanged="Age_TextChanged" Name="Ves" TextAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="77,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="212" Height="68" FontFamily="Bahnschrift SemiBold" FontSize="36"/>
+        <Label Content="Возраст" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="294,254,1386,677" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Content="Рост" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="294,360,1386,571" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Content="Вес" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="294,466,1386,465" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label x:Name="BmiCount" Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1152,500,528,438" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+        <Label Content="Ваш индекс BMI:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="760,501,760,438" FontFamily="Bahnschrift SemiBold" FontSize="48"/>
+
+    </Grid>
+</Page>
